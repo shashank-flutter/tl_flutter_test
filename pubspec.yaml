@@ -32,6 +32,7 @@ dependencies:
   flutter_localizations:
     sdk: flutter
   intl: ^0.18.0
+  typewritertext: ^3.0.2
   floating_action_bubble: ^1.1.4
   freezed_annotation: ^2.2.0
   bloc: ^8.1.0
