@@ -328,7 +328,7 @@ class _MainScreenState extends State<MainScreen> with SingleTickerProviderStateM
                           ElevatedButton(
                               onPressed: (){
                                 setState(() {
-                                  currentPageIndex=4;
+                                  currentPageIndex=3;
                                 });
                                 createHighlightOverlay();
                               }
@@ -444,7 +444,7 @@ class _MainScreenState extends State<MainScreen> with SingleTickerProviderStateM
                           SizedBox(height: 20,),
                           ElevatedButton(
                               onPressed: (){
-
+                                currentPageIndex=4;
                                 createHighlightOverlay(
                                 );
                               }
